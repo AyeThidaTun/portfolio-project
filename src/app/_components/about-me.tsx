@@ -9,7 +9,7 @@ const handleAnimationComplete = () => {
 const AboutMe = forwardRef<HTMLElement>((_, ref) => {
   return (
     <section ref={ref} className="text-white py-30 pt-50">
-      <div className=" flex-col lg:flex-row items-center grid md:grid-cols-2 lg:grid-cols-2 md:gap-x-5 lg:gap-x-10">
+      <div className="flex-col lg:flex-row items-center grid md:grid-cols-2 lg:grid-cols-2 md:gap-x-5 lg:gap-x-10">
         <div className="text-lg md:text-xl col-span-1">
           <h1 className="text-5xl lg:text-8xl pb-20">About Me</h1>
           <BlurText

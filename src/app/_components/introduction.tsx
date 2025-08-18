@@ -14,7 +14,7 @@ export default function WelcomeHeader({handleGetStarted} : Props) {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5, ease: "easeInOut" }}
-        className="text-[4vw] lg:text-[2vw] px-10 text-center"
+        className="text-[4vw] md:text-[3vw] lg:text-[2vw] px-10 text-center"
       >
         <h1 className="flex justify-center text-white z-10 select-text">
           From curiosity to creation — here&apos;s my journey so far.

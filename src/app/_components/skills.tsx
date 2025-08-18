@@ -93,7 +93,7 @@ export default function Skills() {
         textAlign="center"
         onLetterAnimationComplete={handleAnimationComplete}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-20 py-30 gap-10 gap-y-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-10 md:p-20 lg:p-20 py-30 gap-10 gap-y-20">
         {allSkills.map((skill, index) => (
           <motion.div
             key={index}
