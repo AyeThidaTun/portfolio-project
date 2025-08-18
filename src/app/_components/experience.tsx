@@ -29,7 +29,7 @@ export default function Experience() {
     {
       title: "AISP Hackathon",
       src: "/hackathon.jpg",
-      description: "During this 3-day long hackathon, me and my teammate developed a solution for false news information using AI. \nWe proposed an AI-powered tool called Trustify that instantly evaluates the credibility of social media posts to ensure responsible sharing and informed viewing without interrupting the social media experience. \nAlthough we didn't win any prize, it was a fulfilling and meaningful experience for me.",
+      description: "During this 3-day long hackathon, me and my teammate developed a solution for false news information using AI. \n\nWe proposed an AI-powered tool called Trustify that instantly evaluates the credibility of social media posts to ensure responsible sharing and informed viewing without interrupting the social media experience. \n\nAlthough we didn't win any prize, it was a fulfilling and meaningful experience for me.",
     },
     {
       title: "Director's Honour Roll",
