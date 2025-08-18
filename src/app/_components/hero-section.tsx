@@ -8,7 +8,7 @@ const images = [
   { src: "/blue.svg", alt: "blue", size: 60, top: "20vh", left: "50vw" },
   { src: "/pink.svg", alt: "pink", size: 60, top: "8vh", left: "80vw" },
   { src: "/blue.svg", alt: "blue", size: 60, top: "60vh", left: "70vw" },
-  { src: "/pink.svg", alt: "pink", size: 60, top: "90vh", left: "10vw" },
+  { src: "/pink.svg", alt: "pink", size: 60, top: "80vh", left: "10vw" },
   { src: "/blue.svg", alt: "draggable", size: 60, top: "25vh", left: "5vw" },
   { src: "/pink.svg", alt: "pink", size: 60, top: "80vh", left: "80vw" },
   { src: "/blue.svg", alt: "blue", size: 60, top: "70vh", left: "30vw" },
