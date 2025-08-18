@@ -11,7 +11,7 @@ export default function Experience() {
       title: "Reflexa",
       src: "/lamp.jpg",
       description:
-        "Reflexa is a lamp that transforms light through subtle taps on its facets. It was one of my projects done in a elective called Digital Fabrication and Prototyping Fundamentals by using technologies such as 2D & 3D fabrication, Integration of sensors, and Embedded Programming. \n\nSee my journey here - https://ayethidartuneduval.wixsite.com/learning-journey/final-product",
+        "Reflexa is a lamp that transforms light with subtle taps on its facets. It was one of my projects done in a elective called Digital Fabrication and Prototyping Fundamentals by using a few technologies such as 2D & 3D fabrication, Integration of sensors, and Embedded Programming. \n\nSee my journey here - \nhttps://ayethidartuneduval.wixsite.com/\nlearning-journey/final-product",
     },
     
     {

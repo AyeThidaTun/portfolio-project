@@ -20,7 +20,7 @@ export const Card = React.memo(
         onMouseEnter={() => setHovered(index)}
         onMouseLeave={() => setHovered(null)}
         className={cn(
-          "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-80 md:h-130 min-w-[280px] sm:min-w-[320px] md:min-w-[400px] transition-all duration-300 ease-out snap-center",
+          "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-90 md:h-130 min-w-[280px] sm:min-w-[320px] md:min-w-[400px] transition-all duration-300 ease-out snap-center",
           hovered !== null && hovered !== index && " scale-[0.95]",
           hovered === index ? "ring-purple-100 ring-2" : ""
         )}
@@ -34,7 +34,7 @@ export const Card = React.memo(
         />
         <div
           className={cn(
-            "absolute inset-0 flex items-end py-8 px-4 transition-colors duration-300",
+            "absolute inset-0 flex items-end py-8 px-2 md:px-4 lg:px-4 transition-colors duration-300",
             hovered === index ? "bg-black/60" : "bg-transparent"
           )}
         >
@@ -48,7 +48,7 @@ export const Card = React.memo(
               {card.title}
             </div>
             {hovered === index ? (
-              <div className="text-md md:text-md font-medium bg-clip-text text-gray-300 whitespace-pre-line">
+              <div className="text-sm md:text-md lg:text-lg font-medium bg-clip-text text-gray-300 whitespace-pre-line break-words">
                 {card.description}
               </div>
             ) : null}

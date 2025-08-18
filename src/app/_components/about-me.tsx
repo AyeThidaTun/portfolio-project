@@ -1,6 +1,7 @@
 import { forwardRef } from "react";
 import Image from "next/image";
 import BlurText from "@/components/ui/blur-text";
+import { motion } from "framer-motion";
 
 const handleAnimationComplete = () => {
   console.log("Animation completed!");
@@ -22,7 +23,12 @@ const AboutMe = forwardRef<HTMLElement>((_, ref) => {
           />
         </div>
         <div className="col-span-1 justify-center flex">
-          <div className="relative">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5, ease: "easeInOut" }}
+            className="relative"
+          >
             <Image
               src="/linkedin.jpg"
               alt="linkedin"
@@ -30,7 +36,7 @@ const AboutMe = forwardRef<HTMLElement>((_, ref) => {
               height={350}
               className="rounded-full w-60 h-60 sm:w-56 sm:h-56 md:w-72 md:h-72"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
