@@ -4,14 +4,14 @@ import Image from "next/image";
 import { useRef } from "react";
 
 const images = [
-  { src: "/pink.svg", alt: "pink", size: 60, top: "10%", left: "20%" },
-  { src: "/blue.svg", alt: "blue", size: 60, top: "20%", left: "50%" },
-  { src: "/pink.svg", alt: "pink", size: 60, top: "8%", left: "80%" },
-  { src: "/blue.svg", alt: "blue", size: 60, top: "60%", left: "70%" },
-  { src: "/pink.svg", alt: "pink", size: 60, top: "80%", left: "10%" },
-  { src: "/blue.svg", alt: "draggable", size: 60, top: "40%", left: "5%" },
-  { src: "/pink.svg", alt: "pink", size: 60, top: "80%", left: "90%" },
-  { src: "/blue.svg", alt: "blue", size: 60, top: "70%", left: "30%" },
+  { src: "/pink.svg", alt: "pink", size: 60, top: "10vh", left: "20vw" },
+  { src: "/blue.svg", alt: "blue", size: 60, top: "20vh", left: "50vw" },
+  { src: "/pink.svg", alt: "pink", size: 60, top: "8vh", left: "80vw" },
+  { src: "/blue.svg", alt: "blue", size: 60, top: "60vh", left: "70vw" },
+  { src: "/pink.svg", alt: "pink", size: 60, top: "90vh", left: "10vw" },
+  { src: "/blue.svg", alt: "draggable", size: 60, top: "40vh", left: "5vw" },
+  { src: "/pink.svg", alt: "pink", size: 60, top: "80vh", left: "80vw" },
+  { src: "/blue.svg", alt: "blue", size: 60, top: "70vh", left: "30vw" },
 ];
 
 export default function HeroSection() {

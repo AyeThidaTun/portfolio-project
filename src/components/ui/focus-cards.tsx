@@ -20,7 +20,7 @@ export const Card = React.memo(
         onMouseEnter={() => setHovered(index)}
         onMouseLeave={() => setHovered(null)}
         className={cn(
-          "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-130 min-w-[280px] sm:min-w-[320px] md:min-w-[400px] transition-all duration-300 ease-out snap-center",
+          "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-80 md:h-130 min-w-[280px] sm:min-w-[320px] md:min-w-[400px] transition-all duration-300 ease-out snap-center",
           hovered !== null && hovered !== index && " scale-[0.95]",
           hovered === index ? "ring-purple-100 ring-2" : ""
         )}
@@ -29,6 +29,8 @@ export const Card = React.memo(
           src={card.src}
           alt={card.title}
           className="object-cover absolute inset-0"
+          width={400}
+          height={400}
         />
         <div
           className={cn(

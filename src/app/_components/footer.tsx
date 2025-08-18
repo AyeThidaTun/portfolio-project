@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-black dark:bg-neutral-900 text-white dark:text-gray-300 py-8 mt-12 dark:border-neutral-800">
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Left side */}
-        <p className="text-lg">
+        <p className="text-sm md:text-md lg:text-lg">
           © {new Date().getFullYear()} Aye Thida Tun. All rights reserved.
         </p>
 

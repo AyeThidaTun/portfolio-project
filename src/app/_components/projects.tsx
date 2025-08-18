@@ -9,10 +9,10 @@ const handleAnimationComplete = () => {
 
 export default function Projects() {
   return (
-    <section className="px-20">
+    <section className="px-5 md:px-10 lg:px-20">
       <SplitText
         text={`"Every project is a step forward—proof of how far I've come and a glimpse of where I'm going."`}
-        className="text-white text-5xl text-center pt-40 pb-50 px-40 leading-20"
+        className="text-white text-2xl lg:text-5xl text-center pt-40 pb-50 px-10 md:px-30 lg:px-40 leading-10 lg:leading-20"
         delay={100}
         duration={2}
         ease="power3.out"
@@ -35,11 +35,11 @@ export default function Projects() {
             duration: 1,
           }}
         >
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center md:justify-start lg:justify-start">
             <Link href="https://bed-ca2-atdt.onrender.com" target="_blank">
               <DirectionAwareHover mediaUrl="/trees.jpg" mediaType="image">
-                <p className="text-3xl">Ecopets- Sustainability Task Tracker</p>
-                <p className="text-md text-gray-300 pt-3">
+                <p className="text-xl lg:text-3xl">Ecopets- Sustainability Task Tracker</p>
+                <p className="text-sm lg:text-md text-gray-300 pt-3">
                   A sustainability task tracker with points giving system.
                 </p>
               </DirectionAwareHover>
@@ -55,7 +55,7 @@ export default function Projects() {
             duration: 1.5,
           }}
         >
-          <div className="flex items-center justify-end">
+          <div className="flex items-center justify-center md:justify-end lg:justify-end">
             <Link
               href="https://grp1-gitgud-cicd-cebtafaaa3djfwhk.southeastasia-01.azurewebsites.net/"
               target="_blank"
@@ -65,10 +65,10 @@ export default function Projects() {
                 mediaType="image"
                 textAlign="end"
               >
-                <p className="text-3xl text-right">
+                <p className="text-xl lg:text-3xl text-right">
                   Study Group App for SP Students
                 </p>
-                <p className="text-md text-gray-200 pt-3 text-right">
+                <p className="text-sm lg:text-md text-gray-200 pt-3 text-right">
                   A study group website which makes studying more fun and
                   engaging. (Group project)
                 </p>
@@ -85,16 +85,16 @@ export default function Projects() {
             duration: 2,
           }}
         >
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center md:justify-start lg:justify-start">
             <Link
               href="https://mushroom-space.vercel.app/"
               target="_blank"
             >
               <DirectionAwareHover mediaUrl="/yellow.jpg" mediaType="image">
-                <p className="text-3xl">
+                <p className="text-xl lg:text-3xl">
                   Mushroom Space - Typing Speed Game
                 </p>
-                <p className="text-md text-gray-200 pt-3">
+                <p className="text-sm lg:text-md text-gray-200 pt-3">
                   A typing speed game built using React, TypeScript,
                   Tailwind CSS, and Framer Motion.
                 </p>
@@ -111,17 +111,17 @@ export default function Projects() {
             duration: 1.5,
           }}
         >
-          <div className="flex items-center justify-end">
+          <div className="flex items-center justify-center md:justify-end lg:justify-end">
             <Link href="https://react-study-group-app.vercel.app/" target="_blank">
               <DirectionAwareHover
                 mediaUrl="/flower.jpg"
                 mediaType="image"
                 textAlign="end"
               >
-                <p className="text-3xl text-right">
+                <p className="text-xl lg:text-3xl text-right">
                   Studybara - A React-Based Frontend Project
                 </p>
-                <p className="text-md text-gray-200 pt-3 text-right">
+                <p className="text-sm lg:text-md text-gray-200 pt-3 text-right">
                   A refined take on my earlier study group site, built with
                   enhanced UI/UX in mind.
                   <br />

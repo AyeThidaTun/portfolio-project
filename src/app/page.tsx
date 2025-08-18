@@ -40,7 +40,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            className="px-50"
+            className="px-5 lg:px-50"
           >
             <AboutMe />
           </motion.section>

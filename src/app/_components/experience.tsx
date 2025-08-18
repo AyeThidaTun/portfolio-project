@@ -44,10 +44,10 @@ export default function Experience() {
   ];
 
   return (
-    <section className="p-20 py-30">
+    <section className="px-5 md:px-10 lg:p-20 py-30">
       <SplitText
         text={`More About Me`}
-        className="text-white text-8xl text-center py-20"
+        className="text-white text-4xl lg:text-8xl text-center py-20"
         delay={100}
         duration={1}
         ease="power3.out"

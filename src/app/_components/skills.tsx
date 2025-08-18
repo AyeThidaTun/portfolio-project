@@ -81,7 +81,7 @@ export default function Skills() {
     <section className="pt-20 pb-10">
       <SplitText
         text={`"Every tool I've picked up tells a story of a bug fixed, a feature built, or a challenge overcome."`}
-        className="text-white text-5xl text-center pt-30 pb-20 px-40 leading-20"
+        className="text-white text-2xl lg:text-5xl text-center pt-40 pb-50 px-10 md:px-30 lg:px-40 leading-10 lg:leading-20"
         delay={100}
         duration={1}
         ease="power3.out"
@@ -93,7 +93,7 @@ export default function Skills() {
         textAlign="center"
         onLetterAnimationComplete={handleAnimationComplete}
       />
-      <div className="grid grid-cols-3 p-20 py-30 gap-10 gap-y-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-20 py-30 gap-10 gap-y-20">
         {allSkills.map((skill, index) => (
           <motion.div
             key={index}
